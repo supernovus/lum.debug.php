@@ -79,7 +79,7 @@ class Debug
           $debug_val = false;
         else
           $debug_val = intval($debug_val);
-        static::set_flag($debug_key, $debug_val);
+        static::set($debug_key, $debug_val);
       }
     }  
   }
